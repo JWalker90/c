@@ -23,13 +23,13 @@ int main(void)
     // Draw pyramid
     do
     {
-        // Draw first pyramid half's spaces
+        // Draw left pyramid half's spaces
         for (int i = 0; i < spaces; i++)
         {
             printf(" ");
         }
 
-        // Draw first pyramid half's hashes
+        // Draw left pyramid half's hashes
         for (int i = 0; i < hashes; i++)
         {
             printf("#");
@@ -38,7 +38,7 @@ int main(void)
         // Draw middle spaces
         printf("  ");
 
-        // Draw second pyramid half's hashes
+        // Draw right pyramid half's hashes
         for (int i = 0; i < hashes; i++)
         {
             printf("#");
